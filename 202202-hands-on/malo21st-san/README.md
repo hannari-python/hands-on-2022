@@ -1,9 +1,9 @@
 ## malo21stさんのハンズオン格納用
 
 ## 教　材
- - [Pythonの説明_と_Python3.10 の新機能.ipynb](https://colab.research.google.com/drive/1SZbG6cGA3Lx3Tp_VvfssB6fqL77n89j2?usp=sharing) <a target="_blank" href="https://colab.research.google.com/drive/1SZbG6cGA3Lx3Tp_VvfssB6fqL77n89j2?usp=sharing">
-<img src="https://colab.research.google.com/assets/colab-badge.svg" class="badge">
-</a>
+ - [Pythonの説明_と_Python3.10 の新機能.ipynb](https://colab.research.google.com/drive/1SZbG6cGA3Lx3Tp_VvfssB6fqL77n89j2?usp=sharing) <a target="_blank" href="https://colab.research.google.com/drive/1SZbG6cGA3Lx3Tp_VvfssB6fqL77n89j2?usp=sharing"><img src="https://colab.research.google.com/assets/colab-badge.svg" class="badge"></a>  
+ - 教材は、Google Colab 上で利用できます。Googleアカウントのない方は、この機会に是非、下の動画（4分程度）を参考に Google Colab を初めてみませんか。   
+  - https://www.youtube.com/watch?v=XvuZK-6QMCo
 
 ## 内　容
 
