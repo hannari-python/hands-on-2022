@@ -2,8 +2,10 @@
 
 from openpyxl import load_workbook
 
+
 def main() -> None:
     pass
 
-if __name__=="__main__":
+
+if __name__ == "__main__":
     main()
