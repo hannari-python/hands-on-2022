@@ -33,13 +33,13 @@ def main() -> None:
     # enumerate(シーケンシャルなオブジェクト, 開始行番号)
     for row_index, jp_holiday_data in enumerate(jp_holiday_data_list.items(), 2):
 
-        holiday_date = jp_holiday_data[0]
-        holiday_name = jp_holiday_data[1]
-        print(f"{row_index}, {holiday_date}, {holiday_name}")
+        jp_holiday_date = jp_holiday_data[0]
+        jp_holiday_name = jp_holiday_data[1]
+        print(f"{row_index}, {jp_holiday_date}, {jp_holiday_name}")
 
         # 2列だけなので直接指定で入れてます
-        holiday_ws.cell(column=1, row=row_index, value=f"{holiday_date}")
-        holiday_ws.cell(column=2, row=row_index, value=f"{holiday_name}")
+        holiday_ws.cell(column=1, row=row_index, value=f"{jp_holiday_date}")
+        holiday_ws.cell(column=2, row=row_index, value=f"{jp_holiday_name}")
 
     # ファイルを保存する
     holiday_wb.save(filename=EXPORT_EXCEL_FILEPATH)
