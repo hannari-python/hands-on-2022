@@ -6,7 +6,7 @@ backgroundColor: #eee
 
 ## PythonでExcelファイルを読んだり書いたりするハンズオン
 
-はんなりPython 
+はんなりPython
 2022/02/18
 
 ---
@@ -45,7 +45,6 @@ backgroundColor: #eee
 - 手作業によるミスやヒューマンエラーを防ぐ
   - 3日前にしくじったので二度とやりたくない
 
-
 ---
 
 ## しくじり先生: 公開したくないExcelファイルをメールで送る
@@ -55,7 +54,7 @@ backgroundColor: #eee
 詳しいことは言わない（言えない）
 
 - Excelで計算したものをPDF化変換してメール送付
-- 変換作業は自動化していた: 
+- 変換作業は自動化していた:
 メール送付時に不用意にExcelファイルは触らなくていい
 - 一部不備があったExcelファイルをメール送付前に編集
 → **手作業してしまう（魔が差した**
@@ -88,18 +87,35 @@ backgroundColor: #eee
 
 ---
 
-Python 3.10は入ってる？
+## 確認すること
 
-pip install openpyxl
-
-今日利用する資料のDL先
-
-
+- Python 3.10は入ってる？
+- pip install openpyxl
+- 今日利用する資料のDL先
+  - git clone <https://github.com/hrsano645/hands-on-2022.git>
+  - <https://github.com/hrsano645/hands-on-2022> から zip ダウンロード
 
 ---
 
 ## PythonでExcelファイルを読み込む
+
+---
+
+やること
+
+- 帳票的なExcelファイルを読み込む: 今日exampleとしてのファイルを使います
+- 読み込んだ帳票データをjsonファイルに書き出す
+
+---
+
 ## PythonでExcelファイルを書き出す
+
+---
+
+やること
+
+- ***のAPIからデータを取り出す
+- 集めたデータをExcelファイルへ書き出す
 
 ---
 
@@ -110,5 +126,5 @@ pip install openpyxl
 ## Excelを扱うほかの方法
 
 - pandas: バックエンドはopenpyxl
-- そのほか: こちらに載ってます -> https://www.python-excel.org
+- そのほか: こちらに載ってます -> <https://www.python-excel.org>
   - 現在はopenpyxlをおすすめされることが多くなりました
