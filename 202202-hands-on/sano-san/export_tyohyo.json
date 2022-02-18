@@ -1,0 +1,15 @@
+{
+    "employee_number": 100110,
+    "employee_name": "佐野",
+    "statement_number": "EX10001",
+    "application_day": "2022-02-19 00:00:00",
+    "total_amount": 37800,
+    "koumoku_list": [
+        {
+            "日付": "2022-02-17 00:00:00",
+            "内容": "Meta Quest2",
+            "支払先": "個人",
+            "金額": 37800
+        }
+    ]
+}
