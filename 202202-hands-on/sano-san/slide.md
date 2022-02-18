@@ -24,8 +24,6 @@ backgroundColor: #eee
   - 静岡Pythonコミュニティ: Python駿河、PyCon mini Shizuokaスタッフ
   - Code for ふじのくに
 
-<!-- _footer: こんにちは。フッターです。 -->
-
 ---
 
 ## 今日のハンズオンでやること
@@ -114,7 +112,8 @@ backgroundColor: #eee
 
 やること
 
-- ***のAPIからデータを取り出す
+- 日本の祝日APIからデータを取得する
+  - <https://holidays-jp.github.io>
 - 集めたデータをExcelファイルへ書き出す
 
 ---
