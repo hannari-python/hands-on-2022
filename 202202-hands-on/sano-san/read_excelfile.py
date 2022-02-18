@@ -1,18 +1,19 @@
 # PythonでExcelファイルを読み込んで、CSVファイルに書き出してみる
-
 import json
 from datetime import datetime
-
 from pathlib import Path
+
 from openpyxl import load_workbook
 
-handson_dir = Path(__file__).parent
-example_excel_filepath = handson_dir / "./example_tyohyo.xlsx"
+HANDSON_DIR = Path(__file__).parent
+EXAMPLE_EXCEL_FILEPATH = HANDSON_DIR / "./example_tyohyo.xlsx"
+
+EXPORT_JSON_FILEPATH = HANDSON_DIR / "export_tyohyo.json"
 
 
 def main() -> None:
     # （Excelの数式はすでに計算された結果が入っていることを想定）
-    ex_wb = load_workbook(filename=example_excel_filepath, data_only=True)
+    ex_wb = load_workbook(filename=EXAMPLE_EXCEL_FILEPATH, data_only=True)
 
     print(f"ワークシート一覧: {ex_wb.sheetnames}")
 
@@ -109,8 +110,7 @@ def main() -> None:
     pprint(export_json_data)
 
     # jsonファイルで保存しましょう
-    export_json_filepath = handson_dir / "export_tyohyo.json"
-    with export_json_filepath.open("w") as export_json_file:
+    with EXPORT_JSON_FILEPATH.open("w") as export_json_file:
         json.dump(
             export_json_data,
             export_json_file,
