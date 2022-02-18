@@ -18,8 +18,9 @@ def main() -> None:
 
     # シート一つなので activeで有効にします。
     ex_ws = ex_wb.active
+    ex_ws_value = ex_ws["A1"].value
 
-    print(ex_ws["A1"])
+    print(f"シート名: {ex_ws_value}")
 
     # 読み込みたいセル番号を指定してみましょう
     celladdr_employee_number = "B3"
@@ -59,7 +60,7 @@ def main() -> None:
         for column_name, column_cell in zip(column_names, row):
             if column_cell.value is not None:
                 print(f"{column_name}:{column_cell.value},")
-        print("\n")
+        # print("\n")
 
     # jsonファイルとして書き出してみましょう
     # jsonデータの構造を用意
