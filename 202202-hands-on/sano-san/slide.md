@@ -24,7 +24,13 @@ backgroundColor: #eee
   - 静岡Pythonコミュニティ: Python駿河、PyCon mini Shizuokaスタッフ
   - Code for ふじのくに
 
-<!-- _footer: こんにちは。フッターです。 -->
+---
+
+## FYI
+
+- 静岡Pythonコミュニティの勉強会 Python駿河/Unagi.py
+  - 2月は明日開催です！
+  - 詳しくはこちら: https://py-suruga.connpass.com/event/238467/
 
 ---
 
@@ -114,7 +120,8 @@ backgroundColor: #eee
 
 やること
 
-- ***のAPIからデータを取り出す
+- 日本の祝日APIからデータを取得する
+  - <https://holidays-jp.github.io>
 - 集めたデータをExcelファイルへ書き出す
 
 ---
