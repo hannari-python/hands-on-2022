@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "地名": "銀閣寺" }, "geometry": { "type": "Point", "coordinates": [ 135.7982058, 35.0270213 ] } },
+{ "type": "Feature", "properties": { "地名": "金閣寺" }, "geometry": { "type": "Point", "coordinates": [ 135.7292431, 35.03937 ] } },
+{ "type": "Feature", "properties": { "地名": "MKボウル" }, "geometry": { "type": "Point", "coordinates": [ 135.746086, 35.0668248 ] } },
+{ "type": "Feature", "properties": { "地名": "京都駅" }, "geometry": { "type": "Point", "coordinates": [ 135.7587667, 34.985849 ] } }
+]
+}
