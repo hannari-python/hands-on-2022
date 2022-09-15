@@ -3,7 +3,9 @@
 ## Pythonで位置データを扱うハンズオン
 
 - Datetime: 2022-09-16 21:00 ~
-- member: kaisen
+- member: hideyuki_ogawa / driller 
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hannari-python/hands-on-2022/blob/master)
 
 | time | contents| member | document |
 |:--|:--|:--|:--|
