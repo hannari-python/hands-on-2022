@@ -9,4 +9,4 @@
 |:--|:--|:--|:--|
 | 21:00 - 21:05 | オープニング || [資料](https://scrapbox.io/hannari-python/hanpy-hands-on-202202) |
 | 21:05 - 21:15 | アイスブレイク || |
-| ??:?? - ??:?? | ジオコーディング | kaisen | TBA |
+| 21:15 - 21:45 | 位置データを扱う概観 | hideyuki_ogawa | [part1/one-ogawa](https://github.com/hannari-python/hands-on-2022/tree/main/GIS-hands-on/part1/one-ogawa) |
